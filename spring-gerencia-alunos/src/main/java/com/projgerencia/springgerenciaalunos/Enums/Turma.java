@@ -1,8 +1,10 @@
+package com.projgerencia.springgerenciaalunos.Enums;
+
 public enum Turma {
     
-    Matutino("Matutino"),
-    Vespertino("Vespertino"),
-    Noturno("Noturno");
+    Matutino,
+    Vespertino,
+    Noturno;
 
     private String horario;
     

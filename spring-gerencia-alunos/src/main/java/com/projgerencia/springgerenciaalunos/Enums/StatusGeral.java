@@ -1,7 +1,9 @@
+package com.projgerencia.springgerenciaalunos.Enums;
+
 public enum StatusGeral {
     
-    ATIVO("Ativo"),
-    INATIVO("Inativo");
+    ATIVO,
+    INATIVO;
 
     private String status;
     

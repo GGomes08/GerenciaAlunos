@@ -1,7 +1,9 @@
+package com.projgerencia.springgerenciaalunos.Enums;
+
 public enum StatusMentoria {
     
-    Concluido("Concluido"),
-    Não("Não");
+    Concluido,
+    Não;
 
     private String statusMentoria;
 

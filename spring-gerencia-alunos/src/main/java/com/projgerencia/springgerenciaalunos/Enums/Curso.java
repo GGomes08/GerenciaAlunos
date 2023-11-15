@@ -1,13 +1,16 @@
+package com.projgerencia.springgerenciaalunos.Enums;
+
 public enum Curso {
 
-    Informatica("Informatica"),
-    Contabilidade("Contabilidade"),
-    Medicina("Medicina"),
-    Engenharia("Engenharia"),
-    Biologia("Biologia"),
-    Administracao("Administração"),
-    Sociologia("Sociologia");
+    Informatica,
+    Contabilidade,
+    Medicina,
+    Engenharia,
+    Biologia,
+    Administracao,
+    Sociologia;
 
+    private Integer idCurso;//Rever
     private String curso;
 
     public void setCurso(String curso) {
